@@ -1,0 +1,18 @@
+{
+  "name": "ai-form-builder",
+  "version": "1.0.0",
+  "description": "An AI-powered form builder with Gemini and Firebase",
+  "main": "server.py",
+  "scripts": {
+    "start": "python server.py"
+  },
+  "engines": {
+    "python": "3.x"
+  },
+  "dependencies": {
+    "Flask": "^2.2.5",
+    "python-dotenv": "^0.21.1",
+    "google-generativeai": "^0.3.2",
+    "form-builder-ai": "^1.2.2"
+  }
+}
